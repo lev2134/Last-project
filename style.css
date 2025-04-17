@@ -13,7 +13,47 @@ nav{
     justify-content: space-between;
 }
 
-. link{
+.link{
     color: white;
 }
 
+h2 {
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+.popular_items{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.popular_items_div {
+    background-color:#D9D9D9;
+    justify-content: space-between;
+    padding-right: 20px;
+    display: flex; 
+    align-items: center;
+    
+}
+.items {
+    background-color: #D9D9D9;
+}
+.pro_nac {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Information{
+    margin-top: 10%;
+}
+
+.contacts{
+    margin-top: 10%;
+}
+.contacts_logo {
+    justify-content: space-between;
+    display: flex;
+    
+}
