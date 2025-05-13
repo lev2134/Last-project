@@ -1,0 +1,35 @@
+[
+    {
+       "title": "Калькулятор рожевий",
+       "price": 500,
+       "image": "pink_calculator.png"
+        
+    },
+    {
+        "title": "Калькулятор серце",
+        "price": 100,
+        "image": "heart_caclulator.png"
+    },
+    {
+        "title": "Калькулятор рожевий",
+        "price": 500,
+        "image": "heart_caclulator.png"
+    },
+
+    {
+        "title": "калькулятор в формі ноги",
+        "price": "250",
+        "image": "calculator_foot.png"
+    },
+    {
+        "title": "калькулятор роскладушка",
+        "price": "500",
+        "image": "calculator_open.png"
+    },
+    {
+        "title": "калькулятор фіолетовий",
+        "price": 500,
+        "image": "calculator_violet.png"
+    }
+
+]

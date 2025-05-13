@@ -14,36 +14,54 @@
     <img src="img/logo.png" alt="" class="logo">
     <nav>
        
-        <a href="" class="link">Контакти</a>
-        <a href="" class="link">Акції</a>
+        <a href="#contact" class="link">Контакти</a>
+        <a href="#sale" class="link">Акції</a>
         <a href="" class="link">Каталог</a>
-        <a href="" class="link">Про нас</a>
-        <a href="" class="link">Кошик</a>
+        <a href="#pro_nac" class="link">Про нас</a>
+        <a href="" class="link koshik">Кошик</a>
     </nav>
    </header>
-   <h2>Calculator shop</h2>
-   <h5>Купуй і порахуй!</h5>
+   <section class="banner">
+<div class="left_part">
+    <h2 class="nazva">Calculator shop</h2>
+   <h5 class="h5_kypyi">Купуй і порахуй!</h5>
+        <button class="more">Переглянути акції</button>
+</div>
+    <img class="centr" src="img/calculator_centr.png">
+   </section>
+    
+   
    <div class="items">
-     <h5 class="popular_items">Популярні товари</h5>
+     <h5 id="sale" class="popular_items">Акції</h5>
    
     <div class="popular_items_div">
         <div class="popular_item1">
             <img src="img/popular_calculator1-removebg-preview.png" width="200px" height="300px">
             <p>Розумний калькулятор</p>
-            <p>1200 грн</p>
+            <div class="price">
+                <p>1200 грн</p>
+                <button>Купити</button>
+            </div>
+            
         </div>
         
         
         <div class="popular_item1">
             <img src="img/popular_calculator2-removebg-preview.png" width="200px" height="300px">
             <p>Калькулятор будівельний</p>
-            <p>700 грн</p>
+            <div class="price">
+                <p>700 грн</p>
+                <button>Купити</button>
+            </div>
         </div>
         
         <div class="popular_item1">
             <img src="img/popular_calculator3-removebg-preview.png" width="200px" height="300px">
             <p>Калькулятор роскладушка</p>
-            <p>500 грн</p>
+            <div class="price">
+                <p>500 грн</p>
+                <button>Купити</button>
+            </div>
         </div>
 
         
@@ -52,21 +70,36 @@
 
     </div>
    </div>
-   <h1 class="pro_nac">Про нас</h1>
-   <h5 class="Information">Наша мета, помогти вам в обчисленях, наш магазин калькуляторів помагає
+<section class="about">
+   <h1 id="pro_nac" class="pro_nac">Про нас</h1>
+   <div class="about_text">
+     <h5 class="Information">Наша мета, помогти вам в обчисленях, наш магазин калькуляторів помагає
     зручно купити калькулятори, не по великим цінам. Цікавий факт: цей сайт було
     розроблино одною людиною, а також цей сайт був розроблений не з метою
     продажів а для школи програмування.</h5>
+    <img src="img/store.png " >
+   </div>
+  
     <script src="script.js"></script>
-
+</section>
     <footer>
-        <h1 class="contacts">Контакти:</h1>
-        <div class="contacts_logo">
-            <img src="img/TG.png" width="300px" height="300px">
-            <img src="img/Inst.png" width="300px">
-            <img src="img/TT.png" width="300px" height="300px">
+        
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20196.961607375768!2d25.3334071!3d50.74553275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472599ef3f9dc61d%3A0xc1373d98c5d65ffa!2z0KbQo9CcINCb0YPRhtGM0Lo!5e0!3m2!1sru!2sua!4v1747144555012!5m2!1sru!2sua"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <h2>Номер розробника: +380961522878</h2>
+        <div class="info">
+            <div class="socials">
+                <img src="img/Inst.png" alt="" class="soc_logo">
+                <img src="img/TG.png" alt="" class="soc_logo">
+                <img src="img/TT.png" alt="" class="soc_logo">
+            </div>
+            <p class="tel">+380967891534</p>
+            <p class="mail">levworking@gmail.com</p>
+            <form action="">
+                <input type="text" placeholder="Залиште свою пошту для зворотнього зв'язку">
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
     </footer>
 </body>
 </html>
